@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+}
+
+.background-img{
+    height: auto;
+    width: auto;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/834/602/559/computer-keyboards-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#gradient{
+    z-index: 1;
+    opacity: 1;
+    color: #000;
+    background-color: rgba(211, 211, 211, 0.847);
+}
+
+#gradient p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+#gradient h3{
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+main{
+    margin-top: 3rem;
+    /* margin-bottom: 3rem; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c-reg{
+    background-color: rgba(255, 255, 255, 0.872);
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 6px 4px rgba(76, 13, 13, 0.6);
+    margin-bottom: 3rem;
+}
+
+form{
+    padding: 1.5rem;
+}
+
+label{
+    display: block;
+    font-weight: 600;
+}
+#for-input{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+input{
+    width: 60vh;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    border-radius: 10px;
+}
+select{
+    width: 60vh;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    border-radius: 10px;
+    
+}
+#c-reg>p{
+    background-color: teal;
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
+    padding: 1rem;
+    font-size: 1.9rem;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: teal;
+    color: aliceblue;
+    font-size: 1.3rem;
+    padding: 8px;
+    border-radius: 7px;
+}
+.login{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.login a{
+    color: blue;
+}
+.login a:hover{
+    color: rgba(0, 0, 255, 0.872);
+}
+.img-back{
+    height: auto;
+    width: auto;
+    background-image: url('244085-a-flatlay-with-a-laptop-a-notepad-a-smartphone-and.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    background-attachment: fixed;
+}
+#for-heading{
+    opacity: 1;
+    color: #000;
+    background-color: rgba(211, 211, 211, 0.847);
+}
+#for-heading p{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+a:link {
+    color: black;
+  }
+  a:visited {
+    color: green;
+  }
+  a:hover {
+    color: hotpink;
+  }
+  a:active {
+    color: blue;
+  }

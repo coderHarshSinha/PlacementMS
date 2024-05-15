@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    color: rgb(19, 19, 19);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.second_heading{
+    text-align: center;
+    padding-bottom:0.5rem;
+}
+#headm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    position: sticky;
+    top: 0%;
+}
+.head{
+    width: 90%;
+    height:auto;
+    
+}
+#but{
+    width: 10%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    background: url("c2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    background-attachment: fixed;
+} 
+#home i{
+    font-size:60px;
+    top:200px;
+    left:100px;
+    color:rgb(19, 17, 17);
+}
+#home i:hover{
+ 
+    color:rgb(84, 100, 111);
+
+}
+.main{
+    width: 400px;
+    margin:auto;
+    margin-top:20px;
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+.register{
+    background-color:lightgray;
+    width:100%;
+    font-size:20px;
+    border-radius:10px;
+    border:1px solid rgba(15, 15, 15, 0.925);
+    box-shadow:2px 2px 15px rgba(0,0,0,0.3); 
+    color:#0f0f0f;
+    margin-bottom: 50px;
+}
+ #register{
+     margin-left:40px; 
+     margin-top:-10px;
+} 
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-style:italic;
+}
+.name{
+    width:300px;
+    border:none;
+    border-bottom:2px solid #46d83c;
+    /* border-radius: 3px; */
+    /* outline:0; */
+    padding: 7px;
+    /* background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);  */
+    
+}
+input #branch{
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline:0;
+    padding: 4px;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+#submit{
+    width:200px;
+    padding: 7px;
+    font-size:16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: #57d64e;
+     margin-bottom: 20px;
+    color:#fff;
+    cursor: pointer;
+    border:1px solid rgba(255,255,255,0.3);
+ 
+}
+#submit:hover{
+    background-color:orange;
+}
+
+label,span,h2,h1{
+    text-shadow:1px 1px 5px rgba(0,0,0,0.3);
+}
+.btn{
+    background-color: teal;
+    color: aliceblue;
+    font-size: 1.3rem;
+    padding: 8px;
+    border-radius: 7px;
+}

@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+}
+h2{
+    text-align: center;
+    color: rgb(19, 19, 19);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.second_heading{
+    text-align: center;
+    padding-bottom:0.5rem;
+}
+#headm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    position: sticky;
+    top: 0%;
+}
+.head{
+    width: 90%;
+    height:auto;
+    
+}
+#but{
+    width: 10%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+span{
+    font-weight: 800;
+}
+main{
+    width: 100%;
+    min-height: calc(100vh - 5.5rem);
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+#head_of{
+    font-size: 1.7rem;
+    background-color: lightgrey;
+}
+#btn1{
+    background-color: teal;
+    color: aliceblue;
+    font-size: 1.3rem;
+    padding: 8px;
+    border-radius: 7px;
+}
+
+#centre{
+    align-self: center;
+    background-color: lightgrey;
+    /* height: 73vh; */
+    /* align-self: center; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+p{
+    text-align: center;
+}
+
+#note{
+    font-size: 1.3rem;
+    background-color: gray;
+    padding-bottom: 1rem;
+}
+.btn{
+    background-color: teal;
+    color: aliceblue;
+    font-size: 1.3rem;
+    padding: 8px;
+    border-radius: 7px;
+}

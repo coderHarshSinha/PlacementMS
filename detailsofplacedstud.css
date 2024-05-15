@@ -1,0 +1,133 @@
+body{
+    /* background-image: url(c5.jpg); */
+    background-image: url(newphoto.avif);
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+
+    margin: 0px;
+}
+/* logout */
+a:link {
+  color: blue;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+
+h2{
+    text-align: center;
+    color: rgb(19, 19, 19);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+#headm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    position: sticky;
+    top: 0%;
+}
+.head{
+    width: 90%;
+    height:auto;
+    
+}
+#but{
+    width: 10%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.btn{
+    background-color: teal;
+    color: aliceblue;
+    font-size: 1.3rem;
+    padding: 8px;
+    border-radius: 7px;
+ }
+
+#placedstudent{
+    align-items: center;
+    /* background-color: rgba(248, 245, 245, 0.5) ; */
+    background-color: white;
+    width: 400px;
+    font-size: 30px;
+    border-radius: 10px;
+    /* border: 1px solid rgba(255,255,255,0.3); */
+    box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+    color:#140202;
+    margin:100px auto 0px auto;
+}
+#submit{
+    width: 100px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgba(250,100,0,0.8);
+    color:#fff;
+    border:1px solid rgba(255,255,255,0.3);
+    /* submit:submit:active{
+        color: rgba(250,100,0,0.8); ;
+    }
+    hover{
+        color:hotpink;
+    } */
+}
+#form{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+#studentid{
+    width: 300px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgba(116, 183, 16, 0.8);
+    /* background-color:white;
+    border-color:  black ;
+    border-width: 25em;
+    border-style: dark; */
+    color:#fff;
+    border:1px solid rgba(255,255,255,0.3);
+}
+#midform{
+    text-align: center;
+   
+}
+/* #Company{
+    width: 300px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: rgba(116, 183, 16, 0.8);
+    color:#fff;
+    border:1px solid rgba(255,255,255,0.3);
+} */
